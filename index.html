@@ -41,12 +41,53 @@
         .product-info { padding: 20px; }
         .price { color: var(--primary); font-weight: 700; font-size: 1.3rem; }
 /* Vision Section - Updated for a Pro Look */
-       /* Vision Section - Hmawi Design */
+       /* Men Line 44 htal Line 80 taqriban */
+
+        /* Vision Section - Look Premium & Cute */
         #vision { 
-            background: #fdfaf7; /* Lon beige khfif bach may-bqash byed bzaf */
+            background-color: #fdfaf7; 
             padding: 100px 8%;
         }
 
+        .vision-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+            gap: 30px; 
+        }
+
+        .vision-item { 
+            background: white; 
+            padding: 50px 30px; 
+            text-align: center; 
+            border-radius: 25px; 
+            box-shadow: 0 15px 35px rgba(139, 94, 60, 0.08); 
+            transition: all 0.3s ease; 
+            border-top: 5px solid var(--gold); 
+        }
+
+        .vision-item:hover { 
+            transform: translateY(-8px); 
+            box-shadow: 0 20px 45px rgba(139, 94, 60, 0.12);
+        }
+
+        .vision-item i { 
+            font-size: 3.2rem; 
+            color: var(--gold); 
+            margin-bottom: 25px; 
+        }
+
+        .vision-item h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .vision-item p {
+            color: #666;
+            line-height: 1.7;
+            font-size: 0.95rem;
+        }
         .vision-grid { 
             display: grid; 
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
@@ -142,7 +183,7 @@
     <div class="product-card"><img src="backpack%20(9).png"><div class="product-info"><h3>Urban Scout Backpack</h3><p class="price">950 DH</p></div></div>
 </div>
     </section>
-<section id="vision" class="section">
+<section id="vision" class="section" style="background-color: #fdfaf7;">
     <div class="title-group" style="margin-bottom: 60px;">
         <h2 style="font-size: 3.5rem; color: var(--primary);">L'Esprit SOLIVIA</h2>
         <p style="max-width: 850px; margin: 25px auto; color: #666; font-size: 1.15rem; line-height: 1.8;">
