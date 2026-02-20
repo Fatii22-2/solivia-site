@@ -41,30 +41,53 @@
         .product-info { padding: 20px; }
         .price { color: var(--primary); font-weight: 700; font-size: 1.3rem; }
 /* Vision Section - Updated for a Pro Look */
+       /* Vision Section - Hmawi Design */
+        #vision { 
+            background: #fdfaf7; /* Lon beige khfif bach may-bqash byed bzaf */
+            padding: 100px 8%;
+        }
+
         .vision-grid { 
             display: grid; 
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
-            gap: 30px; 
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+            gap: 40px; 
+            margin-top: 50px;
         }
 
         .vision-item { 
-            background: white; 
-            padding: 50px 30px; 
+            background: #ffffff; 
+            padding: 60px 40px; 
             text-align: center; 
-            border-radius: 15px; 
-            box-shadow: 0 10px 40px rgba(0,0,0,0.05); 
-            transition: 0.3s; 
-            border-top: 5px solid var(--gold); 
+            border-radius: 25px; 
+            /* Dilla dyal luxury m-myla l-marron */
+            box-shadow: 0 20px 50px rgba(139, 94, 60, 0.08); 
+            transition: all 0.4s ease; 
+            border-top: 6px solid var(--gold);
         }
 
         .vision-item:hover { 
-            transform: translateY(-10px); 
+            transform: translateY(-15px); 
+            box-shadow: 0 30px 60px rgba(139, 94, 60, 0.15);
         }
 
         .vision-item i { 
-            font-size: 3.5rem; 
+            font-size: 3.8rem; 
             color: var(--gold); 
-            margin-bottom: 25px; 
+            margin-bottom: 30px; 
+            display: inline-block;
+        }
+
+        .vision-item h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        .vision-item p {
+            color: #5a5a5a;
+            line-height: 1.8;
+            font-size: 1rem;
         }
         /* Contact Section */
         .contact-container { max-width: 1100px; margin: 0 auto; background: white; display: flex; box-shadow: 0 30px 60px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden; }
@@ -119,14 +142,32 @@
     <div class="product-card"><img src="backpack%20(9).png"><div class="product-info"><h3>Urban Scout Backpack</h3><p class="price">950 DH</p></div></div>
 </div>
     </section>
-<section id="vision" class="section" style="background-color: #fcfaf8; padding: 100px 8%;">
-    <div class="title-group" style="text-align: center; margin-bottom: 60px;">
-        <h2 style="font-size: 2.8rem; color: var(--primary);">L'Esprit SOLIVIA</h2>
-        <p style="max-width: 800px; margin: 20px auto; color: #666; line-height: 1.8;">
+<section id="vision" class="section">
+    <div class="title-group" style="margin-bottom: 60px;">
+        <h2 style="font-size: 3.5rem; color: var(--primary);">L'Esprit SOLIVIA</h2>
+        <p style="max-width: 850px; margin: 25px auto; color: #666; font-size: 1.15rem; line-height: 1.8;">
             Chez <strong>Solivia</strong>, nous fusionnons la <strong>technologie solaire haut de gamme</strong> avec la maroquinerie de luxe. Notre mission est de redéfinir l'accessoire moderne en offrant une <strong>autonomie illimitée</strong> aux esprits nomades, tout en respectant une démarche de <strong>mode durable</strong>.
         </p>
     </div>
 
+    <div class="vision-grid">
+        <div class="vision-item">
+            <i class="fas fa-sun"></i>
+            <h4>Innovation Solaire</h4>
+            <p>Nos panneaux solaires de dernière génération sont ultra-performants, transformant chaque rayon de lumière en <strong>énergie propre</strong> pour vos appareils connectés.</p>
+        </div>
+        <div class="vision-item">
+            <i class="fas fa-leaf"></i>
+            <h4>Engagement Éco</h4>
+            <p>Une alliance entre style et responsabilité. Nous utilisons des matériaux durables sélectionnés pour minimiser notre empreinte écologique sans compromis sur le luxe.</p>
+        </div>
+        <div class="vision-item">
+            <i class="fas fa-battery-full"></i>
+            <h4>Liberté Totale</h4>
+            <p>Redécouvrez l'autonomie. Votre sac devient une station de recharge intelligente et mobile, vous libérant des contraintes des prises murales traditionnelles.</p>
+        </div>
+    </div>
+</section>
     <div class="vision-grid">
         <div class="vision-item">
             <i class="fas fa-sun"></i>
